@@ -6,26 +6,30 @@
 	<LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css" MEDIA=screen>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
+
 <!-- menu -->
-<nav class="navbar navbar-expand-lg bg-light">
+ <nav class="navbar navbar-expand-lg bg-light">
 	<div class="container-fluid">
 	  <a class="navbar-brand" href="#">Bitácora</a>
-	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	  <div class="collapse navbar-collapse" id="navbarNav">
 		<ul class="navbar-nav">
 		  <li class="nav-item">
-			<a class="nav-link active" aria-current="page" href="#file:///Users/anaisjohnson/Documents/GitHub/bitacora-personal-anaisjohnson/inicio/indexinicio.html>Home </a>
-		</li>
+			<a class="nav-link active" aria-current="page" href="file:///Users/anaisjohnson/Documents/GitHub/bitacora-personal-anaisjohnson/inicio/indexinicio.html">Home</a>
+		  </li>
 		  <li class="nav-item">
 			<a class="nav-link active" aria-current="page" href="file:///Users/anaisjohnson/Documents/GitHub/bitacora-personal-anaisjohnson/%20indexbitacora.html">Bitácora</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link disabled">Portafolio</a>
+			<a class="nav-link active" aria-current="page" href="https://www.instagram.com/anais.johnsonl/">Maquillaje</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link disabled">Contacto</a>
+			<a class="nav-link active" aria-current="page" href="https://wiki.ead.pucv.cl/Edición_Phalène:_El_Viaje">Portafolio</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="https://wiki.ead.pucv.cl/Ana%C3%ADs_Johnson">Contacto</a>
 		  </li>
 		</ul>
 	  </div>
@@ -179,6 +183,47 @@
 	
 		<h6>Tipografía</h6>
 		<p class="text-sm-start">Para editar las tipografías podemos seleccionar tanto como una en especifica o dictar de forma genérica “serif” o “sans serif” a nuestro programa, este según el sistema operativo, mac Helvetica, windows Arial, nos derivará a la tipografía establecida por el sistema. 
+			<ul class="list-unstyled">	
+				<ul>
+				  <li>entry-content {</li>
+				  <li>font-family: Open Sans, Helvetica, Arial, sans-serif;}</li>
+               </ul>
+			</ul>	
+			
+			<h7>Listados Códigos CSS para Tipografia</h7>
+			<p class="text-sm-start">
+			<li><strong>font-size:</strong>tamaño del texto</li>
+			<li><strong>line-height:</strong>interlineado</li>
+			<li><strong>letter-spacing:</strong>interletrado</li> 
+			<li><strong>word-spacing:</strong> espacio entre letras</li>
+			</p>
+
+			<h6>Párrafos</h6>
+
+			<h7>Justificado a la izquierda</h7>
+			<p class="text-sm-start">
+			<li>text-align: left;</li>
+			<li>text-align: start;</li>
+	        </p>
+
+			<h7>Justificado a la derecha</h7>
+			<p class="text-sm-start">
+			<li>text-align: right;</li>
+			<li>text-align: end;</li>
+	        </p>
+
+			<h7>Centrado</h7>
+			<p class="text-sm-start">
+			<li>text-align: center;</li>
+			</p>
+
+			<h7>Justificado  (margen a margen</h7>
+			<p class="text-sm-start">
+			<li>text-align: justify; </li>
+	         </p>
+
+
+
 			<a class="Ejercio" href="https://codepen.io/anaisjohnson/pen/QWrWmzP"><p class="text-md-start"><small>Ejercio en clases: crear un ventana con botones </small></p></a>
 		
 	
@@ -189,11 +234,26 @@
 	<p class="fs-2">Clase 05</p>
 	
 	
-		<h6>Anidación</h6>
-		<p class="text-sm-start">Una etiqueta puede contener a otra, como se muestra en el siguiente ejemplo.
-	
+		<h6>Grillas</h6>
+		<p class="text-sm-start">Las grillas nos permiten diseñar de manera sencilla nuestra página dividiéndola por bloques, nos permite tanto trabajar en capas como en solo una, creando una estructura de diagramación para nuestro contenido
+	   
+			<h7>Código para una grilla</h7>
+			<p class="text-sm-start">
+			<li><”div class”=”container”></li>
+			<li><”div class”= “item item-1”></li>
+			<li><”/div”></li> 
+			<li><”div class= “item item-2”><"/div"></li>
+			<li><”div class= “item item-3”><"/div"></li>
+			<li><”/div”><"/div"></li>
+			<li><”style”><"/div"></li>
+			</p>
+		
+		
+		
+		
 			<a class="Ejercio" href="https://codepen.io/anaisjohnson/pen/xxjVWPj"><p class="text-md-start"><small>Ejercio en clases: recrear un sitio </small></p></a>
 		
+
 	</div><!-- fin clase 5 -->
 
 <!-- clase 6 -->
@@ -304,11 +364,10 @@
 
 <body>
 	
-	<!-- Logo -->
+	
 	<!-- Menú  -->
-	<!-- Introduccion sobre el alumno-->
-	<!-- Sección con 3 tarjetas de contenido -->
-	<!-- Formulario de suscripción a newsletter: Nombre / Correo / Botón enviar  -->
+	<!-- Título-->
+	<!-- Clases -->
 	<!-- Footer -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
