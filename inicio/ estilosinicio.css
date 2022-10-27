@@ -1,0 +1,29 @@
+
+ 
+  .main {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background: #FFFFFF;
+  }
+  
+  
+  .caja{
+   
+    border-radius:0px;
+    margin-top: 70px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    background:#FFFFFF;
+
+  }
+
+  .fotos{
+    border-radius:0px;
+    margin-top: 70px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    background:#FFFFFF;
+
+  }
