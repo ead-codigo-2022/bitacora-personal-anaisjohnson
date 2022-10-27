@@ -6,32 +6,38 @@
 	<LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css" MEDIA=screen>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
-<!-- Logo -->
-<nav class="navbar sticky-top bg-light">
+<!-- menu -->
+<nav class="navbar navbar-expand-lg bg-light">
 	<div class="container-fluid">
 	  <a class="navbar-brand" href="#">Bitácora</a>
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav">
+		  <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="#">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="#">Bitácora</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link disabled">Portafolio</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link disabled">Contacto</a>
+		  </li>
+		</ul>
+	  </div>
 	</div>
-<!-- Menú-->
   </nav>
-<ul class="nav justify-content-center">
-	<li class="nav-item">
-	  <a class="nav-link active" aria-current="page" href="#">Home</a>
-	</li>
-	<li class="nav-item">
-	  <a class="nav-link" href="#">Bitácora</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link disabled">Portafolio</a>
-	</li>
-	<li class="nav-item">
-	  <a class="nav-link disabled">Contacto</a>
-	</li>
-  </ul>
+
   
   <main class="main">
 	<div class="caja">
 <!-- Texto -->
 <h1> Diseño desde el Código</h1>
+<div class="lineas1">
 <p class="fs-2">Clase 01</p>
 
 
@@ -43,9 +49,9 @@
 	 <ul class="list-unstyled">
 <li>Elemetos que construyen una página web:
 	<ul>
-	 <li>HTML: hyper text markup language, este es el contenido de lo que se quiere mostrar.</li>
-	 <li>CSS: cascodine style sheets, este le da el estilo al contenido (html).</li>
-	 <li>JS: Java Script, comportamiento del contenido.</li>
+	 <li><strong>HTML:</strong> hyper text markup language, este es el contenido de lo que se quiere mostrar.</li>
+	 <li><strong>CSS:</strong> cascodine style sheets, este le da el estilo al contenido (html).</li>
+	 <li><strong>JS:</strong> Java Script, comportamiento del contenido.</li>
 	</ul>
  </li>
 </ul>
@@ -53,13 +59,15 @@
 <ul class="list-unstyled">
 <li>Herramientas a usar en clases:
      <ul>
-	  <li>Codepen.io: visualizador de html, este permite ver la visualización de nuestra página, permite escribir códigos html, css, jv, permitiendo saber como estos se visualizarán.</li>
-	  <li>Visual Code Studio: Este programa nos permite crear un archivo html,css y jv, de forma concreta. 	</li>
-	  <li>Github: Repositorio que nos permite registrar nuestros avances. </li>
+	  <li><strong>Codepen.io:</strong> visualizador de html, este permite ver la visualización de nuestra página, permite escribir códigos html, css, jv, permitiendo saber como estos se visualizarán.</li>
+	  <li><strong>Visual Code Studio:</strong> Este programa nos permite crear un archivo html,css y jv, de forma concreta. 	</li>
+	  <li><strong>Github:</strong> Repositorio que nos permite registrar nuestros avances. </li>
 	 </ul>
   </li>
 </ul>
+</div>
 
+<div class="lineas2">
 <p class="fs-2">Clase 02</p>
 
 <ul class="list-unstyled">
@@ -82,19 +90,22 @@
   <ul class="list-unstyled">
 	<li>Metodologías de diseño centrado en el usuario		
 	  <ul>
-		<li>Primer paso: Investigación</li>
-		<li>Segundo paso: Contenidos</li>
-		<li>Tercer paso: Interacción</li>
-		<li>Cuarto Paso: Diseño Visual</li>
-		<li>Quinto Paso: Implementación</li>
+		<li>Primer paso: <strong>Investigación</strong></li>
+		<li>Segundo paso:<strong>Contenidos</strong></li>
+		<li>Tercer paso: <strong>Interacción</strong></li>
+		<li>Cuarto Paso: <strong>Diseño Visual</strong></li>
+		<li>Quinto Paso: <strong>Implementación</strong></li>
 	  </ul>
 	  <li>
 		Se recomienda en el proceso de diseño seguir la sucesión de las etapas, luego establecer los entregables definidos, analizar el ciclo interactivo, y dar postas con roles diferenciales. Herramientas que pueden ayudar a visualizar y a construir de forma ordenada nuestra página web son las partituras de interacción y wireframes. Una buena aplicación para estas es figma.
 		</li>
 	</li>
   </ul>
+</div>
 
-<p class="fs-2">Clase 03</p>
+
+<div class="lineas6">
+<p class="fs-2">Clase 06</p>
 <h6>Cómo crear un container </h6>
     <p class="text-sm-start">
 		Crear un container nos permite mantener márgenes y alineaciones diferentes dentro de nuestra página. 
@@ -114,7 +125,8 @@
         </p>
 
 
-
+	</div>
+	<div class="lineas8">
 <p class="fs-2">Clase 08</p>
 <p class="text-end">
 	<h4>Formatos de imágenes para web</h4>
@@ -122,11 +134,11 @@
 	<!-- Punteos -->
 		<li>Tipos de formatos:
 		  <ul>
-			<li>JPG: imagen de trama, para fotografías</li>
-			<li>PNG: imagen de trama, para colores uniformes logo, colores planos</li>
-			<li>GIF: intercambio de imágenes, sólo 256 colores</li>
-			<li>SVG: imagen vectorial, escalable, código</li>
-			<li>WEBP: imagen de trama, mejor performance que JPG</li>
+			<li><strong>JPG:</strong>imagen de trama, para fotografías</li>
+			<li><strong>PNG:</strong> imagen de trama, para colores uniformes logo, colores planos</li>
+			<li><strong>GIF:</strong> intercambio de imágenes, sólo 256 colores</li>
+			<li><strong>SVG:</strong> imagen vectorial, escalable, código</li>
+			<li><strong>WEBP:</strong> imagen de trama, mejor performance que JPG</li>
 		  </ul>
 		</li>
 	  </ul>
@@ -157,7 +169,7 @@
 	<p class="lh-base">creo el header para luego crear dentro de el, un nav eso crearia mi menu, para crear cada articulo de mi menu lo tengo que hacer con <a> ese lo linkeo a mis paginas y creo un display: block y creo el padding que lo puede mover <main> contenido principal de un sitio, ahi creo un container que tenga un : max-weight:800 px ejemplo que seran mis bordes margin-left:auto y margin-right: auto. Luego tengo un h1, la linea puede ser un borde, entonces para esto creo una caja, para la caja creo un <div>, luego creo en mi etiqueta un class.  (como nombre de etiqueta) 
 		h2 class_ _ title dentro de esta creo un span. class-title - number, p.class description  div. class. content, con padding muevo los elementos internos  padding-left:50 px border top:1 px  padding: 20 px 100 px 20 px 50 px , posición absoluta para el numero, position-absolute. top 20 px eight. 1oo px 
 		 </p>
-	
+		</div>
  </nav>
 </div>
 
